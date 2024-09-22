@@ -1,0 +1,76 @@
+.justify{
+     text-align: justify;
+}
+.strong{
+     color: black !important;
+}
+
+footer .footer-logo img {
+     max-height: 106px !important;
+}
+
+
+.btn-black {
+     background-color: black;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     border-radius: 5px;
+     font-weight: 600;
+}
+ 
+.btn-black:hover {
+     background-color: #333;
+     color: #fff;
+}
+ 
+/* Ensure the parent container is positioned and sized correctly */
+.section .swiper-slide {
+     position: relative;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ /* Style the background image to be responsive */
+.swiper-slide .cover-background {
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 100%;
+}
+ 
+ /* Adjustments for mobile view */
+@media (max-width: 768px) {
+     .swiper-number-pagination-progress {
+         height: auto !important;
+     }
+ 
+     .swiper-slide .cover-background {
+         background-size: contain; /* Change to 'contain' if you want the whole image visible in mobile view */
+         background-position: center;
+     }
+ 
+     .md-h-500px {
+         height: auto; /* Allow height to adjust according to content */
+     }
+}
+.navbar .navbar-nav .nav-item:hover .nav-link, .navbar .navbar-nav .nav-item.active .nav-link {
+     opacity: 1.6;
+ }
+ 
+ .navbar .navbar-nav .dropdown .dropdown-menu {
+     margin: 0;
+     padding: 60px 0 65px;
+     border: 0;
+     top: 65%;
+     background-color: var(--white);
+     box-shadow: 0 45px 45px 0 rgba(0, 0, 0, 0.05);
+     -webkit-animation: hide-animation 0.5s;
+     animation: hide-animation 0.5s;
+     -webkit-border-radius: 0;
+     border-radius: 0;
+ }
+

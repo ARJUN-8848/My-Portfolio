@@ -1,0 +1,11 @@
+.navbar .navbar-nav .nav-item:hover .nav-link, .navbar .navbar-nav .nav-item.active .nav-link {
+    opacity: 13.6;
+}
+footer .footer-logo img {
+    max-height: 169px !important;
+}
+
+footer {
+    padding-top: 37px;
+    padding-bottom: 36px;
+}
