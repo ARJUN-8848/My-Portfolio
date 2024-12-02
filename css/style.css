@@ -19232,3 +19232,27 @@ footer .footer-navbar .nav-item:last-child a {
 .footer-demo img {
   max-height: 55px !important;
 }
+
+
+
+
+
+/* Style for the dropdown menu to make it scrollable */
+.dropdown-menu {
+  max-height: 500px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+/* Optional: Add a nice scrollbar style */
+.dropdown-menu::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
