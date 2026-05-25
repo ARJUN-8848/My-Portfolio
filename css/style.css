@@ -216,6 +216,7 @@ h1, .h1 {
   font-size: 4.375rem;
   line-height: 4.375rem;
 }
+
 h2, .h2 {
   font-size: 3.438rem;
   line-height: 3.438rem;
@@ -19255,4 +19256,36 @@ footer .footer-navbar .nav-item:last-child a {
 
 .dropdown-menu::-webkit-scrollbar-thumb:hover {
   background-color: #aaa;
+}
+.custom-image-size{
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+.boldme{
+    font-weight: 400;
+}
+.boldme2{
+    font-weight: 400;
+    color: black;
+}
+@media (max-width: 768px) {
+  .mobile-heading {
+    font-size: 3rem !important;
+    line-height: 2.8rem !important;
+    .ls-minus-3px {
+    letter-spacing: -1px !important;
+}
+  }
+}
+
+.fw-6004 {
+  font-weight: 400 !important;
+}
+.fs-350arjun {
+  font-size: 10rem;
+  line-height: 10rem;
+}
+.ls1-minus-20px {
+    letter-spacing: -10px !important;
 }
