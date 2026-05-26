@@ -19289,3 +19289,32 @@ footer .footer-navbar .nav-item:last-child a {
 .ls1-minus-20px {
     letter-spacing: -10px !important;
 }
+
+.right-minus-100px-arjun {
+  right: -289px;
+}
+.top-minus-120px-arjun {
+  top: -50px;
+}
+.ls-minus-20px-arjun
+ {
+    letter-spacing: -12px !important;
+}
+.whatsapp-gif{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.whatsapp-gif:hover{
+    transform: scale(1.1);
+}
+.fs-350arjun1 {
+  font-size: 15rem;
+  line-height: 15rem;
+}
+.outside-box-left-25arjun {
+  margin-left: -5vw;
+}
