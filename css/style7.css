@@ -1,0 +1,68 @@
+/* SECOND MARQUEE */
+.marquee-track {
+    display: flex;
+    width: max-content;
+}
+
+.marquee-text-2 {
+    white-space: nowrap;
+    display: inline-block;
+    padding-right: 120px;
+
+    /* Desktop speed */
+    animation: marqueeSecondDesktop 18s linear infinite;
+}
+
+/* Desktop */
+@media (max-width: 992px) {
+    .marquee-text-2 {
+        animation: marqueeSecondTablet 14s linear infinite;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .marquee-text-2 {
+        animation: marqueeSecondTablet 12s linear infinite;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .marquee-text-2 {
+        animation: marqueeSecondMobile 10s linear infinite;
+    }
+}
+
+/* Desktop Animation */
+@keyframes marqueeSecondDesktop {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Tablet Animation */
+@keyframes marqueeSecondTablet {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Mobile Animation */
+@keyframes marqueeSecondMobile {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
