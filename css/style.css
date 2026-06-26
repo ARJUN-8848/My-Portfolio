@@ -83,6 +83,7 @@ Table of contents
   --camarone: #20642b;
   --seal-brown: #0e0708;
   --Wasabi: #8ea63a;
+  --skillcolour: #0000004f;
 }
 
 /* ===================================
@@ -752,8 +753,11 @@ b, strong {
 .text-outline-color-medium-gray {
   -webkit-text-stroke-color: var(--medium-gray);
 }
-.text-outline-color-extra-medium-gray {
+/* .text-outline-color-extra-medium-gray {
   -webkit-text-stroke-color: var(--extra-medium-gray);
+} */
+.text-outline-color-extra-medium-gray {
+  -webkit-text-stroke-color: var(--skillcolour);
 }
 /* Letter spacing */
 .ls-0px {
@@ -6618,7 +6622,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
   font-weight: 600 !important;
 }
 .fw-700 {
-  font-weight: 700 !important;
+  font-weight: 800 !important;
 }
 .fw-800 {
   font-weight: 800 !important;
@@ -19317,4 +19321,9 @@ footer .footer-navbar .nav-item:last-child a {
 }
 .outside-box-left-25arjun {
   margin-left: -5vw;
+}
+
+
+.employee-heading {
+    white-space: nowrap !important;
 }

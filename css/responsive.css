@@ -19001,7 +19001,7 @@
     background-image: none !important;
   }
   [data-mobile-nav-style=full-screen-menu] header .navbar-collapse {
-    display: none !important;
+    display: none;
   }
   [data-mobile-nav-style=full-screen-menu] .navbar-full-screen-menu-inner {
     background-image: linear-gradient(to right top, #0039e3, #4132e0, #5e28dd, #741bd9, #8600d4);

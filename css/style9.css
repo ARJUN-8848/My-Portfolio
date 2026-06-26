@@ -1,0 +1,23 @@
+
+
+.best-paper-text {
+    font-size: 120px;
+    font-weight: 500;
+    color: var(--base-color);
+    line-height: 0.9;
+    letter-spacing: -5px;
+    text-align: center;
+    animation: jumpText 3s ease-in-out infinite;
+}
+
+@keyframes jumpText {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+
+
