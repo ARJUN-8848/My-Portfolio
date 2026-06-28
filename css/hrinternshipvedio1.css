@@ -34,8 +34,8 @@ video {
 }
 
 .video-element-2 {
-    width: 102%;
-    height: 68%;
+    width: 102% !important;
+    height: 68% !important;
     object-fit: cover;
     display: block;
 }
